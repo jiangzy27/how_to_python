@@ -3,9 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 import time
 brower = webdriver.Chrome()
-brower.get("http://172.16.100.22:8022/login.html")
-brower.find_element_by_id("userName").send_keys("16869681777")
-brower.find_element_by_id("passWord").send_keys("che001")
+brower.get("http://www.example.com/login.html")
+brower.find_element_by_id("userName").send_keys("admin")
+brower.find_element_by_id("passWord").send_keys("123456")
 brower.find_element_by_class_name("button-login").click()
 time.sleep(2)
 #run js
