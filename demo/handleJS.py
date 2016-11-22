@@ -15,7 +15,7 @@ brower.execute_script('loadingUrl("/backend-credit/busine/credit/creditManager.h
 time.sleep(5)
 #find element by class name
 #input chinese characters and submit
-brower.find_element_by_class_name("search_customerName").send_keys(unicode("用户名5b4578edbe10", "utf-8"))
+brower.find_element_by_class_name("search_customerName").send_keys(unicode("用户名123", "utf-8"))
 brower.find_element_by_class_name("searchPersonalBtn").click()
 
 #brower.quit()
